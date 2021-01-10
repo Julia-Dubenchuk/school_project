@@ -1,0 +1,31 @@
+{
+  "name": "school_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/app.js",
+  "scripts": {
+    "start": "tsc && node public/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Julia-Dubenchuk/school_project.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Node.js",
+    "CRUD",
+    "PostgreSQL",
+    "SQL"
+  ],
+  "author": "Yulia Dubenchuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Julia-Dubenchuk/school_project/issues"
+  },
+  "homepage": "https://github.com/Julia-Dubenchuk/school_project#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.2.1",
+    "typescript": "^4.1.3"
+  }
+}
