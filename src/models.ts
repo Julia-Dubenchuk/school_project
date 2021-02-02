@@ -1,12 +1,12 @@
 export interface Teacher {
     id: string;
     name: string;
-    lastName: string;
+    last_name: string;
     age: number;
     sex: Sex;
-    yearsOfExperience: number;
-    workedInUniversities: boolean;
-    canTeachSubjects: [Subject];
+    years_of_experience: number;
+    worked_in_universities: boolean;
+    can_teach_subjects: [Subject];
     lessons: [];
     classrooms: [];
 };
@@ -17,7 +17,7 @@ export interface Lesson {
     id_teacher: string;
     day_week: DaysWeek;
     time: string;
-    studentsGroupId: string;
+    students_group_id: string;
 };
 
 export interface Classroom {
@@ -27,23 +27,23 @@ export interface Classroom {
 };
 
 export enum Subject {
-    Biology = "Biology",
-    Math = "Math",
-    Physics = "Physics",
-    Chemistry = "Chemistry",
-    Literature = "Literature"
+    Biology = "biology",
+    Math = "math",
+    Physics = "physics",
+    Chemistry = "chemistry",
+    Literature = "literature"
 };
 
 export enum Sex {
-    Male = "Male",
-    Female = "Female",
-    Intersex = "Intersex"
+    Male = "male",
+    Female = "female",
+    Intersex = "intersex"
 };
 
 export enum DaysWeek {
-    Monday = "Monday",
-    Tuesday = "Tuesday",
-    Wednesday = "Wednesday", 
-    Thursday = "Thursday",
-    Friday = "Friday"
-}
+    Monday = "monday",
+    Tuesday = "tuesday",
+    Wednesday = "wednesday", 
+    Thursday = "thursday",
+    Friday = "friday"
+};
